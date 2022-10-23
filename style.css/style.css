@@ -1,0 +1,279 @@
+/* === GLobal Style === */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    background: transparent;
+    display: block;
+
+    width: 100%;
+    padding: 23px 16px;
+
+    background: #E4E541;
+
+    font-family: 'Graphik LC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #002E5D;
+}
+
+body {
+    background: #001A35;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+/* === GLobal Style EMD === */
+
+/* === SECTION HERO === */
+.header {
+    padding-top: 92px;
+    padding-bottom: 62px;
+}
+
+.header__title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 115%;
+    margin-bottom: 11x;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__img {
+    width: 110%;
+    margin-left: -5%;
+    margin-top: -220px;
+    margin-bottom: -320px;
+
+    animation-name: spin;
+    animation-duration: 1s;
+}
+
+/* .header__img::after {
+    width: 110%;
+    margin-left: -5%;
+    margin-top: -225px;
+    margin-bottom: -320px;
+    transform: translate3d(0, - 100%, 0);
+    animation: spin 1.4s infinite linear;
+
+} */
+
+@keyframes spin {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 10px;
+    }
+
+    100% {
+        left:500px;
+    }
+} 
+
+.header__row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+.header__row-item {
+    background: rgba(73, 168, 213, 0.2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 14px 12px;
+    text-align: center;
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+
+.header__text {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__button {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+/* === SECTION HERO END=== */
+
+/* === SECTION 1=== */
+
+.main-container {
+    margin-top: 60px;
+}
+
+.section__first-img {
+    width: 110%;
+    margin-left: -5%;
+
+}
+
+.section1__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 115%;
+    margin-top: 62px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.list__box {
+    margin-top: 30px;
+    border-bottom: 1px solid lightslategray;
+
+}
+
+.list__p {
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.list__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #A7C539;
+}
+
+.list__box:last-child {
+    border: none;
+    margin-bottom: 32px;
+}
+
+/* === SECTION 1 END=== */
+
+/* === SECTION 2 === */
+
+.section__second-img {
+    width: 120%;
+    margin-left: -5%;
+    margin-top: -70px;
+    margin-bottom: -70px;
+}
+
+.list__link {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.list__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+
+    color: #00BBCE;
+
+}
+
+.section2__button {
+    margin-bottom: 80px;
+}
+
+/* === SECTION 2 END=== */
+
+/* FOOTER */
+.footer__img {
+    width: 75%;
+    margin-left: 10%;
+}
+
+.footer__title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 115%;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer__title-sub {
+    margin-bottom: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 115%;
+
+    text-transform: uppercase;
+
+    color: #E4E541;
+}
+
+.footer__form {
+    padding: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 45px;
+    height: 216px;
+    background: #FFFFFF;
+}
+
+.form__input {
+    width: 100%;
+    padding: 17px 17px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    opacity: 0.5;
+    outline: 0 !important;
+}
+
+.section3__button {
+    padding: 13px 71px;
+    height: 56px;
+    margin-bottom: 0;
+}
+
+/* FOOTER END*/
